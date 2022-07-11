@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+header {
+  background-image: url("../imgs/lav1.jpg");
+  border-bottom: 3px solid rgb(210, 43, 160);
+  height: 13vh;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* height: 1000px; */
+  /* width: 11400px; */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* border-bottom: 3px solid rgb(210, 43, 160); */
+}
+.logo1 {
+  height: 104px;
+  width: 111px;
+}
+.header li {
+  list-style-type: none;
+  padding: 17px;
+  margin: 5px;
+}
+
+.header li a {
+  text-decoration: none;
+  font-size: 23px;
+  color: black;
+  font-weight: 900;
+  padding: 9px;
+}
+
+.header li a:hover {
+  /* text-decoration: underline; */
+  padding: 12px;
+  font-size: 30px;
+  color: black;
+  /* border-bottom: 3px solid rgb(210, 43, 160) ; */
+  transition: all 0.7s ease;
+  /* border: 2px solid red; */
+}
+.header .about {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+.header li a {
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+}
+.list {
+  align-items: center;
+  display: flex;
+}
+.line {
+  border-bottom: 3px solid rgb(210, 43, 160);
+  width: 90px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  /* display: flex; */
+}
+/* header ends */
+/* section 1 starts */
+.container1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.container1 div {
+  font-size: 18px;
+}
+.container2 {
+  display: flex;
+}
+.container2 img {
+  height: 230px;
+  width: 320px;
+  padding-left: 123px;
+  padding-top: 20px;
+}
+/* section 1 ends */
+/* section 2 starts */
+.bio {
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 28px;
+  margin-left: 23px;
+  border-left: 3px solid rgb(210, 43, 160);
+  background-color: rgba(213, 192, 228, 0.57);
+  padding-left: 18px;
+  width: 60%;
+}
+.bio h3 {
+  margin-top: 23px;
+  margin-bottom: 12px;
+}
+.bio p {
+  font-size: 19px;
+  margin-left: 51px;
+  margin-right: 112px;
+  text-align: left;
+  margin-top: 40px;
+}
+/* section 2 ends */
+/* section 3 starts */
+.container3 {
+  /* background: linear-gradient(135deg, rgb(124, 66, 124), rgb(165, 81, 213), white); */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.container3 .cont1 {
+  /* border: 3px solid red; */
+  /* width: 33%; */
+  height: 133px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+/* section 3 ends */
+/* section 4 starts */
+.skills {
+  height: 80vh;
+  background-color: lavenderblush;
+  text-align: center;
+  padding-top: 12px;
+}
+.skills h4 {
+  text-align: left;
+  margin-left: 130px;
+}
+#progresshtml {
+  overflow: hidden;
+  height: 25px;
+  background-color: plum;
+  border-radius: 10px;
+  margin: 10px 120px 25px 120px;
+}
+#progresscss {
+  overflow: hidden;
+  height: 25px;
+  background-color: plum;
+  border-radius: 10px;
+  margin: 10px 120px 25px 120px;
+}
+#progressjs {
+  overflow: hidden;
+  height: 25px;
+  background-color: plum;
+  border-radius: 10px;
+  margin: 10px 120px 25px 120px;
+}
+#progressbootstrap {
+  overflow: hidden;
+  height: 25px;
+  background-color: plum;
+  border-radius: 10px;
+  margin: 10px 120px 25px 120px;
+}
+#progressreactjs {
+  overflow: hidden;
+  height: 25px;
+  background-color: plum;
+  border-radius: 10px;
+  margin: 10px 120px 25px 120px;
+}
+#progressangularjs {
+  overflow: hidden;
+  height: 25px;
+  background-color: plum;
+  border-radius: 10px;
+  margin: 10px 120px 25px 120px;
+}
+#progressdonehtml {
+  height: 100%;
+  width: 0;
+  text-align: center;
+  background: black;
+  transition: 3s ease 0.3s;
+  border-radius: 23px;
+}
+#progressdonecss {
+  height: 100%;
+  width: 0;
+  text-align: center;
+  background: black;
+  border-radius: 23px;
+  transition: 3s ease 0.3s;
+}
+#progressdonejs {
+  height: 100%;
+  width: 0;
+  text-align: center;
+  background: black;
+  transition: 3s ease 0.3s;
+  border-radius: 23px;
+}
+#progressdonebootstrap {
+  height: 100%;
+  width: 0;
+  text-align: center;
+  background: black;
+  transition: 3s ease 0.3s;
+  border-radius: 23px;
+}
+#progressdonereactjs {
+  height: 100%;
+  width: 0;
+  text-align: center;
+  background: black;
+  transition: 3s ease 0.3s;
+  border-radius: 23px;
+}
+#progressdoneangularjs {
+  height: 100%;
+  width: 0;
+  text-align: center;
+  background: black;
+  transition: 3s ease 0.3s;
+  border-radius: 23px;
+}
+/* section 4 ends */
+/* section  5 starts*/
+.container4 {
+  /* 
+    background-color: rgb(0, 0, 0); */
+  padding-top: 19px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 70vh;
+  /* color: white; */
+}
+.review p {
+  font-size: 20px;
+}
+
+.subreviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.rev1 {
+  margin: 40px;
+  height: 300px;
+  width: 25%;
+  border-top: linear-gradient(white, azure);
+  /* border: 3px solid black; */
+  border-top: 1px solid black;
+
+  box-shadow: 5px 5px 20px rgb(191, 82, 213);
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease-in;
+  justify-content: space-between;
+}
+.rev1:hover {
+  transform: scale(1.1);
+}
+.rev1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.rev1 li {
+  display: flex;
+  list-style-type: none;
+  align-items: left;
+  text-align: left;
+  color: grEY;
+}
+.rev1 p {
+  margin-top: 12px;
+}
+
+/* section 5 ends */
+/* section 6 starts */
+.increment {
+  height: 30vh;
+  background-color: aquamarine;
+  background-color: rgba(213, 192, 228, 0.57);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.counter {
+  margin: 0px 60px;
+}
+.counter h1 {
+  font-size: 60px;
+}
+.counter p {
+  font-size: 20px;
+}
+.counter div {
+  font-size: 50px;
+  font-weight: 900;
+}
+/* section 6 ends */
+/* footer starts */
+footer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 55vh;
+  background-color: #000000;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .sec {
+  color: white;
+  margin-right: 30px;
+  margin-left: 70px;
+  text-align: left;
+  font-size: 15px;
+  width: 40%;
+}
+
+footer .container .sec .aboutus {
+  /* position: relative; */
+  color: #fff;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+
+footer p {
+  color: white;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.sci {
+  margin-top: 20px;
+  display: flex;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  color: white;
+  margin-right: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: grey;
+}
+
+.sci li a:hover {
+  border-radius: 20px;
+  background-color: rgb(193, 127, 255);
+  color: black;
+  /* padding: 4px; */
+  transition: all 1s ease;
+}
+
+.quicklinks {
+  position: relative;
+  width: 20%;
+}
+
+.quicklinks ul li {
+  list-style: none;
+}
+
+.quicklinks ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  display: flex;
+  margin: 20px;
+}
+.quicklinks ul li a:hover {
+  margin-left: 30px;
+  color: rgb(193, 127, 255);
+  transition: all 0.5s ease;
+}
+.contact {
+  margin-right: 50px;
+  margin-left: 20px;
+}
+.contact .info li {
+  display: flex;
+  margin: 20px;
+  padding: 7px;
+}
+.contact .info li:hover {
+  margin-left: 30px;
+  color: rgb(193, 127, 255);
+  transition: all 0.5s ease;
+}
+.copyright {
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 8px 100px;
+}
+/* footer ends */
